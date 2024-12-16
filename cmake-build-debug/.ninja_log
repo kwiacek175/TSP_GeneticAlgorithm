@@ -1,0 +1,7 @@
+# ninja log v6
+4	31	7555871842857495	clean	20b1347d9ae3b987
+27	1414	7555875910877545	CMakeFiles/TSP_GeneticAlgorithm.dir/src/app/main.cpp.obj	eec40e495f76332c
+39	1503	7555875910991630	CMakeFiles/TSP_GeneticAlgorithm.dir/src/structures/Graph.cpp.obj	b8898c11d274010c
+50	1760	7555875911096016	CMakeFiles/TSP_GeneticAlgorithm.dir/src/algorithms/GeneticAlgorithm.cpp.obj	cc7d9f6c49d9e1ab
+1760	2142	7555875928199814	TSP_GeneticAlgorithm.exe	21c92ebb9ffeb7e3
+45	70	7555876080522879	clean	20b1347d9ae3b987
