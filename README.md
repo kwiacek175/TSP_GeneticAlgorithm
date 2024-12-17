@@ -37,10 +37,10 @@ Program uruchamia się z parametrami podanymi w linii komend w następującej ko
 
 ## Przkład uruchomienia 
 program.exe graph.txt 60 100 0.8 0.01 PMX
-1. Nazwa pliku (graph.txt)
-2. Czas [s] (60)
-3. Populacja (100)
-4. Współczynnik krzyżowania (0.8)
-5. Współczynnik mutacji (0.01)
-6. Typ krzyżowania (PMX lub OX)
+1. Nazwa pliku (graph.txt) - Ścieżka do pliku zawierającego dane grafu. Plik powinien znajdować się w odpowiednim katalogu i być w poprawnym formacie opisującym graf dla problemu komiwojażera (TSP).
+2. Czas [s] (60) - Maksymalny czas działania algorytmu w sekundach. Algorytm przestanie działać po upływie podanego czasu.
+3. Populacja (100) - Liczba osobników w populacji początkowej algorytmu genetycznego. Większa populacja może zwiększyć szanse na znalezienie lepszego rozwiązania, ale zwiększa też czas obliczeń.
+4. Współczynnik krzyżowania (0.8) - Prawdopodobieństwo zastosowania operatora krzyżowania podczas tworzenia nowej populacji. Zakres wartości: 0.0 - 1.0.
+5. Współczynnik mutacji (0.01) - Prawdopodobieństwo mutacji każdego osobnika w populacji. Zakres wartości: 0.0 - 1.0.
+6. Typ krzyżowania (PMX lub OX) - PMX: Krzyżowanie częściowo dopasowane (Partially Matched Crossover), OX: Krzyżowanie porządkowe (Order Crossover).
 
