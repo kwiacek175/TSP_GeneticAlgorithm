@@ -27,6 +27,13 @@ Projekt implementuje **algorytm genetyczny** do rozwiązywania problemu komiwoja
 
 ---
 
+## Struktura projektu
+  - Main: main.cpp - Obsługa linii komend i uruchamianie algorytmu.
+  - Graph: structures/Graph.h, structures/Graph.cpp - Klasa reprezentująca graf TSP.
+  - GeneticAlgorithm: algorithms/GeneticAlgorithm.h, algorithms/GeneticAlgorithm.cpp - Implementacja algorytmu genetycznego.
+
+---
+
 ## Użycie programu
 
 Program uruchamia się z parametrami podanymi w linii komend w następującej kolejności:
